@@ -1,0 +1,83 @@
+{
+  "image": "0_20260817_154750.png",
+  "plates": [
+    {
+      "box": [
+        663,
+        502,
+        760,
+        541
+      ],
+      "detection_score": 0.960015058517456,
+      "ocr": {
+        "text": "TN07CY4761",
+        "raw_texts": [
+          "TN07CY4761"
+        ],
+        "score": 0.9781404733657837,
+        "source": "cleaned",
+        "variant_agreement": 2,
+        "common_plate_format": true
+      },
+      "ocr_candidates": [
+        {
+          "text": "TN07CY4761",
+          "raw_texts": [
+            "TN07CY4761"
+          ],
+          "score": 0.974398136138916,
+          "source": "upscaled"
+        },
+        {
+          "text": "TN07CY4761",
+          "raw_texts": [
+            "TN07CY4761"
+          ],
+          "score": 0.9781404733657837,
+          "source": "cleaned"
+        },
+        {
+          "text": "TH07CYA761",
+          "raw_texts": [
+            "TH07CYA761"
+          ],
+          "score": 0.8859695196151733,
+          "source": "binary"
+        }
+      ]
+    }
+  ],
+  "smoke_predictions": [],
+  "smoke_threshold": 0.4,
+  "smoke_status": "no_predictions_above_threshold",
+  "errors": [],
+  "vehicles": [
+    {
+      "box": [
+        520,
+        333,
+        852,
+        646
+      ],
+      "score": 0.8783953785896301,
+      "class": "car"
+    },
+    {
+      "box": [
+        941,
+        403,
+        1034,
+        499
+      ],
+      "score": 0.6238872408866882,
+      "class": "truck"
+    }
+  ],
+  "vehicle_gate": {
+    "status": "vehicle_gate_applied",
+    "rejected_candidates": 2
+  },
+  "pipeline": "vehicle_gated_v1",
+  "smoke_box_coverage_percent": 0.0,
+  "coverage_note": "Union of bounding boxes; NOT actual smoke-pixel area or severity."
+}
