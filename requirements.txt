@@ -1,0 +1,20 @@
+# Dependencies for ANPR_EasyOCR.ipynb (current code uses PaddleOCR).
+# Intended runtime: Google Colab.
+# This is a dependency specification, not a tested environment lockfile.
+
+# YOLO inference; installs PyTorch/torchvision through its dependencies.
+ultralytics>=8,<9
+huggingface-hub
+
+# The notebook uses PaddleOCR's 3.x predict() API.
+# paddlepaddle is the CPU OCR inference engine.
+paddleocr>=3,<4
+paddlepaddle>=3,<4
+
+# Image processing and notebook visualization.
+opencv-python
+numpy
+matplotlib
+
+# google.colab is provided by the Colab runtime; do not add google-colab here.
+# json, re, shutil, zipfile, hashlib, pathlib, datetime, and io are built in.
